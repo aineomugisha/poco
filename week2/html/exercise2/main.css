@@ -1,0 +1,20 @@
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    font-weight: bolder;
+    color: grey;
+    padding:10px;
+    text-align:right;
+  }
+
+  body{
+    margin: 15px auto;
+    width: 70%;
+}
+
+article{
+    width: 80%;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
