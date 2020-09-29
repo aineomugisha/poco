@@ -1,0 +1,17 @@
+ageCalculator
+var birthYear
+var birthMonth
+var currentMonth
+var futureYear
+
+input 
+prompt 'Enter year in the future?'
+Prompt 'Enter a month'
+
+Output 
+if month =< birthMonth
+alert: ("I will be " + futureYear-birthYear-1+ " years old");
+else
+alert: ("In " futureYear + " I will be " + futureYear-birthYear-1 + "years old")
+
+End

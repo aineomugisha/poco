@@ -1,0 +1,26 @@
+body, html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:2px;
+}
+
+body{
+    background-color: ivory;
+}
+
+ul{
+    padding:5px;
+    display:flex;
+    list-style: none;
+    flex-direction:row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+li{
+    flex-basis: 200px;
+    background-color: cadetblue;
+    margin:10px;
+    flex-grow: 1;
+    padding:10px;
+    color:white;
+}
