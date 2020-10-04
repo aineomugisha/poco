@@ -1,0 +1,50 @@
+Initialize noun, verb, adverb, adjective as string
+Initialize story as 'I woke up in the morning and looked at the grey sky and decided immediately to go back to bed'
+Initialize storyNouns as array ['morning', 'sky', 'bed']
+Initialize storyVerbs as array ['woke up', 'looked at', 'go back', 'decided']
+Initialize storyAdverb as array['immediately']
+Initialize storyAdjective as array['grey']
+Initialize blank as string
+
+//Questions
+//What do we need? 
+// number of 
+
+//Input
+Prompt 'Please enter a noun' as noun 
+Prompt 'Please enter a adverb' as adverb 
+Prompt 'Please enter a adjective' as adjective 
+Prompt 'Please enter a verb' as verb
+
+//Process 
+if noun is not empty    
+    blank is random item of storyNouns
+    story is story where noun replaces blank
+    else
+    Prompt 'Enter a noun'
+end if
+
+if verb is not empty    
+    blank is random item of storyVerbs
+    story is story where verb replaces blank
+    else
+    Prompt 'Enter a verb'
+end if
+
+if adverb is not empty    
+    blank is random item of storyAdverb
+    story is story where adverb replaces blank
+    else
+    Prompt 'Enter an adverb'
+end if
+
+if adjective is not empty    
+    blank is random item of storyAdjective
+    story is story where adjective replaces blank
+    else
+    Prompt 'Enter an adjective'
+end if
+
+Display story
+
+End

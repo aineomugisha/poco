@@ -1,0 +1,38 @@
+sayHello
+
+INPUT
+Initialize firstName as string;
+Initialize lastName as string;
+prompt user for first and last name. 
+Prompt for lastName 
+Clean input incase there are special characters
+No digits or spaces or special characters allowed
+
+PROCESS AND OUTPUT
+If first name is empty 
+    return error (first name is required)
+
+If firstName is not empty but lastName is
+    if firstName contains special characters or numbers or spaces
+        display error
+    else
+        if firstName starts with a small letter Capitalize it 
+            Display: Hello firstName
+        else
+             Display: Hello firstName
+
+
+if both names are empty 
+{
+    display 'please enter your name'. 
+}
+
+if both names are given
+    if they contain numbers or spaces or special characters
+        display Error 
+    else
+        if firstName and lastName start with a small letter Capitalize them
+        Display: Hello firstName + lastName
+        else
+        Display: Hello firstName + lastName
+End

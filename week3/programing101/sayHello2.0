@@ -1,0 +1,17 @@
+SayHello
+
+Initialize  name as string;
+Prompt user for name
+Check if name has numbers or special characters (-s 's and spaces allowed)
+If yes Return error
+    prompt 'Please reenter the name'
+    Go back to line 4
+else
+Display 'hello' + name
+
+End if
+
+End
+
+================================================================================
+

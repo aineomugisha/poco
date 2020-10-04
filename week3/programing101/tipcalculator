@@ -1,0 +1,46 @@
+tipCalculator
+
+Initialize amount;
+Initialize tipRate;
+Initialize tip;
+initialize total;
+Initialize newamount;
+
+prompt 'please enter amount. The smallest decimal accepted is 0.05'
+prompt 'please enter tip rate in percentage. This number should be bigger than 0 and a whole number. for example 15 for 15% and not 0.15'
+
+If tip is a whole number and amount is a whole number{
+tip=tipRate/100 * amount;
+}
+else if tip is not a whole number{
+    Display please enter a whole number.
+}
+}
+
+if {amount is a decimal and the decimal is equal or greater than 0.5
+newamount=amount minus decimal plus 1;
+total=tip+newamount;
+Display tip;
+Display amount; 
+Display total;
+}
+
+else if amount is a decimal and the decimal is less that 0.5{
+newamount=amount;
+total=tip+newamount;
+Display tip;
+Display amount; 
+Display total;
+}
+
+
+total=tip+amount;
+Display tip;
+Display amount; 
+Display total;
+}
+else
+Display Error
+end tipCalculator
+
+if amount is a decimal

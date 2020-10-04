@@ -1,0 +1,41 @@
+checkParenthesis 
+
+//Variables 
+Initialize s as string 
+Initialize stringArray []
+//Questions
+//Input
+String is already given
+//Process
+
+Add s as is to stringArray
+
+While (stringArray is not empty)
+    {
+        for every ( seen expect ) after it
+            if ) is not seen 
+                Output false
+            else
+                Output True
+            End if
+
+        for every [seen expect] after it
+            if ] is not seen 
+                Output false
+            else
+                Output True
+            End if
+    }
+
+/*Test cases 
+s = "(hour)of[code]"
+
+ContraitS 
+[ or ( cannnot appear after ( or [ (Output false)
+
+) or ] cannot appear after ) or ] ()Output is = False
+
+For it to be true ( must after ) or [ must come after ] */
+
+
+End 

@@ -1,0 +1,68 @@
+integerGuessing
+
+variables
+
+constraints
+numbers between one and a hundred
+Guess using less or greater than or equal to
+must be whole numbers
+
+
+INPUT
+Display Think of a number
+Enter Yes or no
+Display question
+y=x/2
+PROCESSING
+Input
+
+ x is the guessed number 
+ y = max/2
+ 
+ midpoint - z
+    z=max/2
+
+Display: Is your number less than or greater than or equal to z? Please klick on one of these options
+less, = and greater buttons     
+
+    Is x = z?
+    If yes print Hurray
+
+    
+ Step less than
+    if x is less than z 
+        newMax=z
+        y=newMax/2;
+         Display: Is your number greater than or less than or equal to y?
+     If x=y print yaay
+     If more 
+        z=y;
+        newMax=z
+        go back to step1
+
+Step greater than
+     if x is greater than z
+     max=100;
+        y=(max-z)/2;
+        Display: Is your number greater than or less than or equal to y?
+        If less
+            z=y; go to step less
+        If x=y 
+            print yaay
+
+        If x is greater than y
+        max
+        
+
+    
+    if x is greater than 50
+
+
+
+If 
+OUTPUT
+Print True
+    
+    Initialize x as integer
+
+End

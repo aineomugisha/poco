@@ -1,0 +1,42 @@
+Reverse a number: given a number, reverse its digits.
+
+Input: 1234
+Output: 4321
+
+Input: 100000000
+Output: 1
+
+Input: -321
+Output: -123
+------------------------------------
+
+Constraits
+Only integers allowed
+
+Initialize givenNumber as integer
+Initialize givenNumberArray []
+Initialize reversedArray []
+Initialize reversedNumber
+Initialize LastPosition
+
+Add givenNumber to an givenNumberArray
+
+for (givenNumberArray)
+LastPosition=number in last position
+If number in first position is followed by 0nly zeros or followed by nothing
+Output first number
+
+else 
+//step 1 
+lastPosition= number in last position
+add lastPosition to  reversedArray  
+    if there is a number before the number in last position
+        LastPosition is number before last position
+        repeat step 1
+    else
+        assign all items in reversedArray to reversedNumber
+        Output 'your reversed number is' + reversedNumber
+    End if
+
+End
+

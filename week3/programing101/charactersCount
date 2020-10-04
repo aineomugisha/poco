@@ -1,0 +1,143 @@
+charactersCounter
+
+Variables
+    Initialize inputString as a string;
+    Initialize count=0;
+    Initialize ourArray as array
+
+//Input
+Prompt 'please enter text to count the charactors.' as inputString
+
+//Constraits
+//Do spaces count as characters? Yes. 
+
+//Processing
+if inputString is empty
+    Display 'please enter some text'
+else
+    convert inputstring into ourArray
+    //Count characters 
+    for each item in the ourArray
+        count=count+1
+
+
+ Display 
+    
+        'Your text:'+ inputString +
+        'the number of characters is' + count
+
+End
+
+================================================================
+
+printQoute
+
+Initialize author as string
+Initialize quote as string
+//Questions
+
+//Input
+Prompt for 'please enter the name of the author' as author
+
+//Processing
+if author is empty or only numbers
+    Prompt 'please enter a valid name of the author'
+else   
+    incase quote has quotation marks, escape them
+    Prompt 'please enter the quote' as quote
+        if quote is empty 
+            Prompt 'please enter the quote'
+        else
+            incase quote has quotation marks, escape them
+            Display author + 'says,"' + quote +'."'
+        End if
+End if
+//always check input for code 
+
+End
+
+=================================================================================
+SayHello
+
+Initialize  name as string;
+Prompt user for name
+Check if name has numbers or special characters (-s 's and spaces allowed)
+If yes Return error
+    prompt 'Please reenter the name'
+    Go back to line 4
+else
+Display 'hello' + name
+
+End if
+
+End
+
+================================================================================
+madLib
+
+Initialize noun, verb, adverb, adjective as string
+Initialize story as 'I woke up in the morning and looked at the grey sky and decided immediately to go back to bed'
+Initialize storyNouns as array ['morning', 'sky', 'bed']
+Initialize storyVerbs as array ['woke up', 'looked at', 'go back', 'decided']
+Initialize storyAdverb as array['immediately']
+Initialize storyAdjective as array['grey']
+Initialize blank as string
+
+//Questions
+//What do we need? 
+// number of 
+
+//Input
+Prompt 'Please enter a noun' as noun 
+Prompt 'Please enter a adverb' as adverb 
+Prompt 'Please enter a adjective' as adjective 
+Prompt 'Please enter a verb' as verb
+
+//Process 
+if noun is not empty    
+    blank is random item of storyNouns
+    story is story where noun replaces blank
+    else
+    Prompt 'Enter a noun'
+end if
+
+if verb is not empty    
+    blank is random item of storyVerbs
+    story is story where verb replaces blank
+    else
+    Prompt 'Enter a verb'
+end if
+
+if adverb is not empty    
+    blank is random item of storyAdverb
+    story is story where adverb replaces blank
+    else
+    Prompt 'Enter an adverb'
+end if
+
+if adjective is not empty    
+    blank is random item of storyAdjective
+    story is story where adjective replaces blank
+    else
+    Prompt 'Enter an adjective'
+end if
+
+Display story
+
+End
+
+=================================================================================
+integerGuessing 
+Constraits
+minimum
+Maximum
+Can only ask: Is your number < or = or > X ?
+x=(maximum-minimum) divided by 2 //rounded off to nearest integer
+
+Is your number lower than X?
+If yes
+maximum is equal to 
+If no 
+
+
+End
