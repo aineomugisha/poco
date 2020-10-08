@@ -19,7 +19,7 @@ if (noun!="")
         prompt ('Enter a noun');
     }       
 //Endif
-adverb = prompt("Please enter a adverb");
+adverb = prompt("Please enter an adverb");
 if (adverb!="")   
     {
     blank=storyAdverbs[Math.floor(Math.random()*storyAdverbs.length)];
@@ -30,7 +30,7 @@ if (adverb!="")
         prompt ('Enter an adverb');
     }   
 //Endif
-adjective=prompt('Please enter a adjective');  
+adjective=prompt('Please enter an adjective');  
 if (adjective!="")   
     {
     blank=storyAdjectives[Math.floor(Math.random()*storyAdjectives.length)]; 
