@@ -1,0 +1,8 @@
+Today's hour of code: 
+=================
+Create a background gradient generator:
+1. Create a simple HTML file with the tags needed (see PDF of final generator)
+2. Add the basic CSS file attached (style.css) and edit it to add a default gradient in the background
+3. Add a JavaScript file
+4. For each color of the gradient change the background gradient style with the new colors
+5. Additionally output the gradient style to the HTML (see PDF of final generator)

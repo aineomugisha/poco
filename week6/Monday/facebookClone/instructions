@@ -1,0 +1,9 @@
+Create a simple web application which clones the basic core facebook functionalities 
+User interactions (likes and comments) Post, users
+
+Users, registration form, login, checking username and password combo, username(Identifier), profile picture, password recovery, deleting account, friends, 
+
+Username / Password combos checking combo
+
+Posts: Likes and comments form for post input: text,/paragraph, date/time, author (connects to the user who wrote the post)
+Everyone with a username and password can view posts 

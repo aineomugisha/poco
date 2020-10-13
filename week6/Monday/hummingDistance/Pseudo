@@ -1,0 +1,20 @@
+Compare two strands of DNA 
+
+//Input 
+Initialize stringOne 
+Initialize stringTwo
+Initialize count 
+
+
+//Output 
+THe hamming distance counting differences between two strings (number of differences)
+
+
+//Process
+If first index in stringOne = first index in stringTwo count = 0
+count++
+//contraints 
+- should be equal length 
+- comparing with different length should not work
+
+stringOne.length === StringTwo.lenght 
