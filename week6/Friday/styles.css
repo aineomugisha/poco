@@ -1,0 +1,19 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    
+    
+}
+
+body{
+    display: flex;
+    text-align: center;
+    /* border: 2px solid orange; */
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+}
+
+input{
+    text-align: center;
+}
